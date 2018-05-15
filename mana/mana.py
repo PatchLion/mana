@@ -28,21 +28,21 @@ Install:
 import os
 
 # operators
-from operators import _mkdir_p
-from operators import init_code
+from mana.operators import _mkdir_p
+from mana.operators import init_code
 
 # templates
-from templates.manage import _manage_basic_code, _manage_admin_code
-from templates.requirement import _requirement_code, _requirement_admin_code
-from templates.views import _views_basic_code, _views_blueprint_code
-from templates.forms import _forms_basic_code
-from templates.init import _init_basic_code, _init_blueprint_code, \
+from mana.templates.manage import _manage_basic_code, _manage_admin_code
+from mana.templates.requirement import _requirement_code, _requirement_admin_code
+from mana.templates.views import _views_basic_code, _views_blueprint_code
+from mana.templates.forms import _forms_basic_code
+from mana.templates.init import _init_basic_code, _init_blueprint_code, \
                            _init_admin_code
-from templates.config import _config_sql_code
-from templates.models import _models_admin_code
-from templates.admin import _admin_views_code, _admin_index_html_code, \
+from mana.templates.config import _config_sql_code
+from mana.templates.models import _models_admin_code
+from mana.templates.admin import _admin_views_code, _admin_index_html_code, \
                             _admin_logout_html_code
-from templates.auth import _auth_forms_code, _auth_views_code, \
+from mana.templates.auth import _auth_forms_code, _auth_views_code, \
                            _auth_login_html_code, _auth_login_css_code
 
 # logging
